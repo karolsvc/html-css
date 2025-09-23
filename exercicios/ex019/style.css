@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 
+    HTML ID = CSS #
+    HTML CLASS = CSS .
+    A regra do W3C é de que só pode usar o mesmo id uma vez numa página
+*/
+
+body{
+    background-color: rgb(182, 250, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h1{
+    color: rgb(0, 119, 0);
+}
+
+h2{
+    color: rgb(18, 73, 18);
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color:yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(255, 255, 165, 0.479);
+}
