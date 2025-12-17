@@ -10,7 +10,7 @@
 html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
-    font-weight: 1.5em;
+    line-height: 1.5em;
 }
 
 menu {
@@ -18,7 +18,7 @@ menu {
 }
 
 article {
-    width: 100px;
+    width: 100%;
 }
 
 article::after {
