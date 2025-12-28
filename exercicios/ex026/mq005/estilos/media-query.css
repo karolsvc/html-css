@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*telas maiores a partir de 768px*/
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+    
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
