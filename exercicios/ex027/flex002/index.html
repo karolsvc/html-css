@@ -7,10 +7,13 @@
     <style>
         div.conteiner {
             background-color: lightcoral;
-            
+            height: 100px;
 
             display: flex;
-
+            /* flex-direction: row;
+            flex-wrap: wrap;
+            shorthand: */
+            flex-flow: column wrap;
         }
 
         div.item {
@@ -19,6 +22,7 @@
             
             text-align: center;
             border: 1px solid black;
+            flex: auto;
         }
     </style>
 </head>
